@@ -1,0 +1,23 @@
+Common Network Ports and Security
+
+Purpose
+
+This document identifies common network ports, their services, and basic security considerations.
+
+Port| Service| Purpose| Security Consideration
+22| SSH| Remote administration| Restrict access and use strong authentication
+53| DNS| Resolves domain names| Monitor suspicious DNS activity
+80| HTTP| Web communication| Prefer HTTPS for sensitive traffic
+443| HTTPS| Encrypted web communication| Maintain secure TLS configuration
+
+Key Observation
+
+An open port does not automatically indicate a vulnerability. Security depends on the service, configuration, exposure, and access controls.
+
+Practical Limitations
+
+This is a reference-based study. No live network scan was conducted.
+
+Conclusion
+
+Understanding common ports helps cybersecurity professionals assess network services and identify potential security risks.
